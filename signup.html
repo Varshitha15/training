@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>signup page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="signup.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body >
+    <div class="loginBox">
+    <form>
+        <div class="line">
+           <h3   >Sign up</h3>
+        </div>
+        <div>
+        <input type="text" name="fname" id="fname"  placeholder="First name">
+        <input type="text" name="lname" id="lname"  placeholder="Last name"> 
+        </div>
+        <div>
+            <input type="email" id= "email" placeholder="Email Address">
+            <p id="para">@yahoo.com</p>
+        </div>
+        <div>
+            <a href="">I'd rather use my own email address</a>
+        </div>
+        <div>
+            <input type="password" id="password" placeholder="Password"></br>
+        </div>
+        <div>
+            <select name="month" id=birthMonth>
+                <option value="" selected disabled>Birth Month</option>
+                <option value="January">January</option>
+                <option value="febuary">febuary</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="september">september</option>
+                <option value="october">october</option>
+                <option value="november">november</option>
+                <option value="december">december</option>
+            </select>
+        
+            <input type="TEXT" id="dateOB" name="dateB" placeholder="Date">
+            <input type="TEXT"name="year" id="yearOB" placeholder="Year">
+        </div>
+        <div>
+            <select id="gender" name="Gender">
+                    <option value="" selected disabled>Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div>
+            <p >By clicking "Continue", you agree to the Terms and Privacy Policy </p>    
+        </div>
+        <div>
+            <button id="sampleButton" onclick="showTime()"> Continue </button>
+        </div>
+        <div>
+           <p >Already have an account? Sign in </p>    
+        </div>
+    </form>
+    </div>
+</body>
+</html>
+
